@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "znak"
+version = "0.1.0"
+description = ""
+authors = ["Damir Khabibulin <damu4@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.61.2"
+PyMuPDF = "^1.18.3"
+Pillow = "^8.0.1"
+pylibdmtx = "^0.1.9"
+pytest = "^6.1.2"
+uvicorn = "^0.12.2"
+numpy = "^1.19.4"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
