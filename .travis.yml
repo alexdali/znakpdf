@@ -5,5 +5,4 @@ before_install:
   - pip install poetry
 install:
   - poetry install
-script:
-  - python -m unittest discover
+script: pytest
